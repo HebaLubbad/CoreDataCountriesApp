@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		FA845F272771796B005D4194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F262771796B005D4194 /* AppDelegate.swift */; };
 		FA845F292771796B005D4194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F282771796B005D4194 /* SceneDelegate.swift */; };
-		FA845F2B2771796B005D4194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F2A2771796B005D4194 /* ViewController.swift */; };
+		FA845F2B2771796B005D4194 /* CountriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F2A2771796B005D4194 /* CountriesVC.swift */; };
 		FA845F2E2771796B005D4194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA845F2C2771796B005D4194 /* Main.storyboard */; };
 		FA845F312771796C005D4194 /* CoreDataCountriesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA845F2F2771796C005D4194 /* CoreDataCountriesApp.xcdatamodeld */; };
 		FA845F332771796F005D4194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA845F322771796F005D4194 /* Assets.xcassets */; };
 		FA845F362771796F005D4194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA845F342771796F005D4194 /* LaunchScreen.storyboard */; };
+		FA845F3E27717C36005D4194 /* CountryTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F3D27717C36005D4194 /* CountryTCell.swift */; };
+		FA845F4027717C95005D4194 /* AddCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F3F27717C95005D4194 /* AddCountryVC.swift */; };
+		FA845F4227717CB5005D4194 /* EditCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F4127717CB4005D4194 /* EditCountryVC.swift */; };
+		FA845F4427717DB3005D4194 /* CountryDetialsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA845F4327717DB3005D4194 /* CountryDetialsVC.swift */; };
+		FAAE4F4927774C840036F4A6 /* Country_DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE4F4827774C840036F4A6 /* Country_DB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA845F232771796B005D4194 /* CoreDataCountriesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCountriesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA845F262771796B005D4194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA845F282771796B005D4194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA845F2A2771796B005D4194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA845F2A2771796B005D4194 /* CountriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesVC.swift; sourceTree = "<group>"; };
 		FA845F2D2771796B005D4194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA845F302771796C005D4194 /* CoreDataCountriesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataCountriesApp.xcdatamodel; sourceTree = "<group>"; };
 		FA845F322771796F005D4194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA845F352771796F005D4194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA845F372771796F005D4194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA845F3D27717C36005D4194 /* CountryTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTCell.swift; sourceTree = "<group>"; };
+		FA845F3F27717C95005D4194 /* AddCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountryVC.swift; sourceTree = "<group>"; };
+		FA845F4127717CB4005D4194 /* EditCountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCountryVC.swift; sourceTree = "<group>"; };
+		FA845F4327717DB3005D4194 /* CountryDetialsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetialsVC.swift; sourceTree = "<group>"; };
+		FAAE4F4827774C840036F4A6 /* Country_DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country_DB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,12 @@
 			children = (
 				FA845F262771796B005D4194 /* AppDelegate.swift */,
 				FA845F282771796B005D4194 /* SceneDelegate.swift */,
-				FA845F2A2771796B005D4194 /* ViewController.swift */,
+				FA845F2A2771796B005D4194 /* CountriesVC.swift */,
+				FA845F4327717DB3005D4194 /* CountryDetialsVC.swift */,
+				FA845F3D27717C36005D4194 /* CountryTCell.swift */,
+				FA845F3F27717C95005D4194 /* AddCountryVC.swift */,
+				FA845F4127717CB4005D4194 /* EditCountryVC.swift */,
+				FAAE4F4827774C840036F4A6 /* Country_DB.swift */,
 				FA845F2C2771796B005D4194 /* Main.storyboard */,
 				FA845F322771796F005D4194 /* Assets.xcassets */,
 				FA845F342771796F005D4194 /* LaunchScreen.storyboard */,
@@ -140,7 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA845F2B2771796B005D4194 /* ViewController.swift in Sources */,
+				FA845F3E27717C36005D4194 /* CountryTCell.swift in Sources */,
+				FA845F4027717C95005D4194 /* AddCountryVC.swift in Sources */,
+				FA845F2B2771796B005D4194 /* CountriesVC.swift in Sources */,
+				FA845F4227717CB5005D4194 /* EditCountryVC.swift in Sources */,
+				FAAE4F4927774C840036F4A6 /* Country_DB.swift in Sources */,
+				FA845F4427717DB3005D4194 /* CountryDetialsVC.swift in Sources */,
 				FA845F272771796B005D4194 /* AppDelegate.swift in Sources */,
 				FA845F292771796B005D4194 /* SceneDelegate.swift in Sources */,
 				FA845F312771796C005D4194 /* CoreDataCountriesApp.xcdatamodeld in Sources */,
@@ -220,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
